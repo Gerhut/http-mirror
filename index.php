@@ -38,5 +38,3 @@ foreach ($headers as $header)
 // Response Body
 $body = substr($response, $header_size);
 echo $body;
-
-?>
